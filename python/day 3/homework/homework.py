@@ -1,0 +1,1 @@
+print("elene, kaxa, nato, saba")
