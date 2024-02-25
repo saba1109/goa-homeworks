@@ -20,8 +20,8 @@ forward(900)
 end_fill()
 
 
-#saxlis garshemoweriloba
-color("#90EE90")
+#house
+color("black")
 penup()
 goto(-370, -195)
 pendown()
@@ -74,8 +74,9 @@ penup()
 goto(-160, -195)
 pendown()
 
-color("black")
+color("grey")
 #SASAXLEE
+
 right(45)
 right(90)
 forward(250)
@@ -83,10 +84,14 @@ penup()
 goto(-160, -195)
 pendown()
 
+
+
 right(90)
 forward(80)
 left(90)
 forward(250)
+color('red')
+begin_fill()
 right(90)
 forward(10)
 left(125)
@@ -98,17 +103,22 @@ forward(80)
 left(126)
 right(1)
 forward(100)
+end_fill()
 
+color("grey")
 penup()
 goto(-75, -195)
 pendown()
 forward(360)
 left(90)
 
+
 right(90)
 forward(80)
 left(90)
 forward(250)
+color("red")
+begin_fill()
 right(90)
 forward(10)
 left(125)
@@ -120,7 +130,9 @@ forward(80)
 left(126)
 right(1)
 forward(100)
+end_fill()
 
+color("grey")
 penup()
 goto(285, 50)
 pendown()
@@ -130,7 +142,6 @@ forward(240)
 penup()
 goto(-80, -25)
 pendown()
-
 left(90)
 forward(365)
 
@@ -138,13 +149,18 @@ penup()
 goto(75, -195)
 pendown()
 
+color("blue")
+begin_fill()
 left(90)
 forward(100)
 right(90)
 forward(60)
 right(90)
 forward(100)
+end_fill()
 
+
+color("grey")
 penup()
 goto(-30, -100)
 pendown()
@@ -236,6 +252,8 @@ penup()
 goto(50, 155)
 pendown()
 
+color("red")
+begin_fill()
 forward(20)
 right(125)
 forward(120)
@@ -243,6 +261,7 @@ right(110)
 forward(120)
 right(125)
 forward(20)
+end_fill()
 
 # Function to draw a sun
 color("yellow")
@@ -257,8 +276,6 @@ color("#87CEEB")
 penup()
 goto(-380,360)
 pendown()
-
-
 
 
 exitonclick()
