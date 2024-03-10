@@ -1,140 +1,65 @@
-import turtle 
-
-def draw_rectangle(t, width, height):
-    for _ in range(2):
-        t.forward(width)
-        t.left(90)
-        t.forward(height)
-        t.left(90)
-
-# Function to draw a triangle
-def draw_triangle(t, size):
-    for _ in range(3):
-        t.forward(size)
-        t.left(120)
-
-# Function to draw a door
-def draw_door(t):
-    t.penup()
-    t.goto(-40, -150)
-    t.pendown()
-    t.setheading(0)  # Set the turtle's heading to the right
-    draw_rectangle(t, 80, 100)
-
-# Function to draw a window
-def draw_window(t):
-    t.penup()
-    t.goto(80, -50)
-    t.pendown()
-    t.setheading(0)  # Set the turtle's heading to the right
-    draw_rectangle(t, 60, 60)
-
-# Function to draw a balcony
-def draw_balcony(t):
-    t.penup()
-    t.goto(-120, 50)
-    t.pendown()
-    t.setheading(0)  # Set the turtle's heading to the right
-    draw_rectangle(t, 240, 20)
-    t.penup()
-    t.goto(-100, 50)
-    t.pendown()
-    draw_rectangle(t, 200, 100)
-
-# Function to draw the house
-def draw_house():
-    # Create a Turtle object
-    house = turtle.Turtle()
-    house.speed(0)  # Set the fastest drawing speed
-
-    # Draw the first floor
-    draw_rectangle(house, 200, 200)
-
-    # Draw the second floor
-    house.penup()
-    house.goto(-90, 0)
-    house.pendown()
-    draw_rectangle(house, 180, 150)
-
-    # Draw the roof
-    house.penup()
-    house.goto(-100, 200)
-    house.pendown()
-    draw_triangle(house, 400)
-
-    # Draw the door
-    draw_door(house)
-
-    # Draw the window
-    draw_window(house)
-
-    # Draw the balcony
-    draw_balcony(house)
-
-    # Hide the turtle
-    house.hideturtle()
-
-    # Keep the window open until it's manually closed
-    turtle.done()
-
-# Call the function to draw the house
-draw_house()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+from turtle import *
+width(4)
+speed(5)
+
+#balaxi
+color("green")
+penup()
+goto (-380, -200)
+pendown()
+color("green")
+begin_fill()
+forward(800)
+right(90)
+forward(161)
+right(90)
+forward(900)
+end_fill()
+
+
+color("black")
+#house
+penup()
+goto(-350, -195)
+pendown()
+
+#monaxazi gareta
+right(90)
+forward(170)
+right(65)
+forward(500)
+right(55)
+forward(200)
+
+penup()
+goto(250, 100)
+pendown()
+
+right(60)
+forward(300)
+
+width(1)
+color("grey")
+begin_fill()
+penup()
+goto(-350, -170)
+pendown()
+left(90)
+forward(600)
+right(90)
+forward(30)
+right(90)
+forward(600)
+right(90)
+forward(30)
+end_fill()
+
+width(3)
+#karebi
+color("white")
+penup()
+goto(-100, -200)
+pendown()
 
 
 
