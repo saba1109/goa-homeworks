@@ -2,28 +2,26 @@
 
 num1 = input("swavlob tuara goashi? :")
 
-while num1 != "diax":
+
+while num1 != "ki":
     num1 = input("swavlob tuara goashi? :")
 
-
-if num1 == "diax":
+if num1 == "ki":
     input("romel jgufshi xart? : ")
 
-num2 = input("romel jgufshixart? :")
-
-while num2 != 13:
-    num2 = input("romel jgufshixart? :")
+num2 = input("romel jgufshi xart? :")
 
 if num2 == 13:
     input("aris tuara gabrieli sheni mentori? :")
 
 num3 = input("aris tuara gabrieli sheni mentori? :")
 
-while num3 != "diax":
+while num3 != "ki":
     num3 = input("aris tuara gabrieli sheni mentori? :")
     
-if num3 == "diax":
-    input("mec aq swavlob da namdvilad gabrielia chveni mentori :")
+if num3 == "ki":
+    input("mec aq vswavlob da namdvilad gabrielia chveni mentori :")
+
 else:
     print("tyuixar shen ar xar jguf 13-shi")
 
