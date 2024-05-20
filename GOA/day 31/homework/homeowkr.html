@@ -1,0 +1,55 @@
+<!-- შექმენით ფორმა, სადაც მომხმარებელი შეიტანს სახელს, გვარს, ემაილს, პაროლს, და იქნება რამდენიმე select, ერთი იქნება საჭმელების ჩამონათვალი, მეორეში სპორტის სხვადასხვა სახეების ჩამონათვალი, მესამეში იქნება მანქანების ჩამონათვალი, ბოლოს იქნება ერთი submit ღილაკი რომელიც ამ ყველა ინფორმაციას გადააგზავნის ბაზაში, კოდი დაწერეთ სწორად, სტრუქტურის დაცვით, ატრიბუტების გამოყენებით(for, id, name, value) და ასევე დაამატეთ label ები -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <br>
+            <br>
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname">
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="emial" name="email">
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" >
+        </form>   
+        <select>
+            <option value="Khinkali">Khinkali</option>
+            <option value="Mtsvadi">Mtsvadi</option>
+            <option value="Khachapuri">Khachapuri</option>
+            <option value="Qababi">Qababi</option>
+            <option value="Chaqafuli">Chaqafuli</option>
+        </select>
+        <br>
+        <select>
+            <option value="Football">Football</option>
+            <option value="Basketball">Basketball</option>
+            <option value="Teniss">Teniss</option>
+            <option value="Ragbi">Ragbi</option>
+        </select>
+        <br>
+        <select>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Porsche">Porsche</option>
+            <option value="BMW">BMW</option>
+            <option value="Bugatti">Bugatti</option>
+        </select>
+        <br>
+        <input type="submit">    
+    </center>
+</body>
+</html>
+
+
