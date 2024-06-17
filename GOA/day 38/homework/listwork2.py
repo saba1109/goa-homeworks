@@ -1,0 +1,3 @@
+# შექმნათ სია სადაც მოათავსებთ თქვენი ოჯახის წევრების სახელებს(მინიმუმ 10 სახელი) და შემდეგ კი დაბეჭდავთ გრძელ წინადადებაში ყველა სახელს ერთად მაგ. ჩემი სახელია {თქვენი სახელი} ჩემი დედიკოს სახელია {დედიკოს სახელი} ჩემი მამიკოს სახელია {მამიკოს სახელს}
+names = ["Kakhaberi", "Nato", "Elene", "Saba", "Tamari", "Joto", "Jumberi", "Jemali", "Durmishxani," "Aslanazi"]
+print("my name is " + names[3] + " my mother is " + names[1] + " my dad is " + names[0] + " my sister is " + names[2])
