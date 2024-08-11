@@ -3,6 +3,6 @@
 def check_num ():
     num = int(input("type any number: "))
     if num > 10:
-        return "good!"
+        return "magaria!"
     return ""
 print(check_num())
