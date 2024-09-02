@@ -1,0 +1,36 @@
+/* სტილის დამემკვიდრება ნიშნავს, მშობელი ელემენტისთვის განსაზღვრული სტილის შვილობილი ელემენტებისთვის მემკვიდრეობით გადაცემას */
+body {
+    background-color: lightgray;
+    color: black;
+}
+
+#main-header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+
+#main-nav {
+    background-color: white;
+    color: navy;
+    text-align: center;
+}
+
+#main-nav .nav-item a {
+    color: navy;
+}
+
+#content {
+    color: black;
+}
+
+#content article h2 {
+    color: navy;
+    background-color: lightgray;
+}
+
+#main-footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
