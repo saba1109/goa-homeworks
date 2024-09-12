@@ -1,0 +1,39 @@
+body {
+    background-color: lightgray;
+    color: black;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+main {
+    background-color: white;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    color: black;
+}
+
+ul {
+    color: red;
+}
+
+li {
+    color: black;
+}
+
+img {
+    width: 100%;
+    border: 2px solid blue;
+}
