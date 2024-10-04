@@ -1,0 +1,28 @@
+<!-- საიტზე დაამატეთ სამი ტექსტი პირველი ტექსტი იქნება სულ დიდი ასოებით და მას ხაზი ექნება გასმული ქვემოთ, მეორე ტექსტი იქნება სულ პატარა ასოებით სა შუაში ექნება ხაზი გასმული, ხოლო მესამეში ყოველი სიტყვის პირველი ასო იქნება დიდი და ზემოდან ექნება ხაზი გასმული -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #big_letter{
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+        #small_letter{
+            text-transform: lowercase;
+            text-decoration: line-through;
+        }
+        #mesame{
+            text-transform: capitalize;
+            text-decoration: overline;
+        }
+    </style>
+</head>
+<body>
+    <p id="big_letter">world</p>
+    <p id="small_letter">world</p>
+    <p id="mesame">hello world</p>
+</body>
+</html>
