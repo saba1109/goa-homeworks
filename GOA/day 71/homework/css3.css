@@ -1,0 +1,25 @@
+body {
+    background-color: lightgrey;
+    color: darkgrey;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+section {
+    border: dashed grey;
+    background-color: white;
+}
+
+footer {
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
+}
