@@ -1,0 +1,57 @@
+<!-- წინა საკლასო დავალების ცხრილის ყველა ლუწი rowს background-colorი გახადეთ მწვანე, ხოლო ყველა კენტი rowს backgriund-colorი წითელი -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table, th {
+            border: 3px solid red;
+            color: blue;
+            background-color: lightblue;
+        }
+        th{
+            text-align: center;
+        }
+        tr:nth-child(even){
+            background-color: green;
+        }
+        tr:nth-child(odd){
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>number</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Einstein</td>
+            <td>14</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Grace Olive</td>
+            <td>15</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Andy Roberts</td>
+            <td>15</td>
+            <td>Fail</td>
+        </tr>
+    </table>
+</body>
+</html>
