@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.styled-list {
+    list-style-type: square;
+    list-style-position: inside; 
+}
+
+.styled-list li {
+    margin: 10px 0; /* თითოეული ელემენტის დაშორება */
+    padding-left: 10px; /* შიდა დაშორება */
+}

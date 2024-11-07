@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    color: #c0d9ff;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+th {
+    background-color: #0072c6;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: left;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
